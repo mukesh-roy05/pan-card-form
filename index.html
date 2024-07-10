@@ -183,21 +183,60 @@
             <tr>
                 <td></td>
                 <td>
-                    <div style="display: inline-block; border-right: 1px solid black;">
+                    <div style="display: inline-block; border-right: 1px solid black; width: 40%;">
                         <span>*</span><b>4. Select Parent name which is to be printed on the card</b><br>
                         <b style="color: blue;">(In Case no option is provided then PAN will be issued
                             with father's name)</b>
                     </div>
                     <div style="display: inline-block;">
                         <label for="father">Father name</label>
-                        <input type="radio" name="" id="father">
+                        <input type="radio" name="parentname" id="father">
                         <label for="mother">Mother Name</label>
-                        <input type="radio" name="" id="mother">
+                        <input type="radio" name="parentname" id="mother">
                     </div>
                 </td>
             </tr>
             <tr>
-                <td></td>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>
+                    <div style="display: flex; ;">
+                        <div style="border-right: 1px solid black; width: 40%;">
+                            <span>*</span>
+                            <b>Date of Birth/Incorporation/Agreement/Partnership <br>
+                                or Trust Deed/Formation of Body of Individuals/ <br>
+                                Association of Persons
+                            </b>
+                        </div>
+                        <div>
+                            <label for="date">DD MM YYYY</label><br>
+                            <input type="date" name="" id="date">
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td >
+                    <input type="checkbox" name="" id="">
+                </td>
+                <td>
+                    <div style="display: flex;">
+                        <div style="width: 40%; border-right: 1px solid black;">
+                            <span>*</span>
+                            <b>6. Gender</b>
+                        </div>
+                        <div>
+                         
+                        <label for="male" >Male</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="female" style="padding-left: 20px;">Female</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="transgender" style="padding-left: 20px;">TransGender</label>
+                        <input type="radio" name="gender" id="transgender">
+                        </div>
+                    </div>
+                </td>
             </tr>
         </tbody>
     </table>
